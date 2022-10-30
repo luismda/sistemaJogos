@@ -1,0 +1,54 @@
+.select_filtro {
+    width: 220px !important;
+    margin-right: 0.9rem;
+    margin-bottom: 0 !important;
+}
+
+.title_span {
+    font-size: 16px;
+}
+
+.col_header {
+    width: fit-content !important;
+}
+
+.link_voltar {
+    width: fit-content;
+    color: #0079bf;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.link_voltar.roxo {
+    color: #7144b9;
+}
+
+.link_voltar.verde {
+    color: #00a884;
+}
+
+.link_voltar svg {
+    margin-right: 0.2em;
+    font-size: 14px;
+}
+
+.link_voltar:hover {
+    color: #1b97df;
+}
+
+.link_voltar.roxo:hover {
+    color: #9772d1;
+}
+
+.link_voltar.verde:hover {
+    color: #0b7c64;
+}
+
+.grid_group_form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0.5em;
+}

@@ -1,0 +1,40 @@
+.loading {
+    z-index: 1056;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+
+.loading span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 6px solid #0079bf;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    animation: spinner 0.35s linear alternate infinite;
+}
+
+.loading.roxo span {
+    border-color: #7144b9;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.loading.verde span {
+    border-color: #00a884;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(180deg);
+    }
+}

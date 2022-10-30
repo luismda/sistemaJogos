@@ -1,0 +1,21 @@
+.m_header .btn-close {
+   background-color: transparent !important;
+}
+
+.m_header .btn-close:focus {
+    box-shadow: none !important;
+}
+
+.m_title {
+    font-size: 18px !important;
+    border-left: 4px solid #0079bf !important;
+    padding-left: 0.25em !important;
+}
+
+.m_title.roxo {
+    border-color: #7144b9 !important;
+}
+
+.m_title.verde {
+    border-color: #00a884 !important;
+}

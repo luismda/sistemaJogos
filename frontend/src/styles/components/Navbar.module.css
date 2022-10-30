@@ -1,0 +1,54 @@
+.navbar {
+    background-color: #0079bf !important;
+    color: #fff !important;
+}
+
+.navbar.roxo {
+    background-color: #7144b9 !important;
+}
+
+.navbar.verde {
+    background-color: #00a884 !important;
+}
+
+.toggler:focus {
+    box-shadow: 0 1px 3px #1b97df !important;
+}
+
+.toggler.roxo:focus {
+    box-shadow: 0 1px 3px #9772d1 !important;
+}
+
+.toggler.verde:focus {
+    box-shadow: 0 1px 3px #2ec0a0 !important;
+}
+
+.toggler_icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.active a {
+    background-color: #1c92d6;
+    border-radius: 6px;
+}
+
+.navbar.roxo .active a {
+    background-color:  #8559cc;
+}
+
+.navbar.verde .active a {
+    background-color:  #0fbe95;
+}
+
+.nav_item_link_user {
+    background-color: #1c92d6;
+    border-radius: 6px;
+}
+
+.navbar.roxo .nav_item_link_user {
+    background-color:  #8559cc;
+}
+
+.navbar.verde .nav_item_link_user {
+    background-color:  #0fbe95;
+}

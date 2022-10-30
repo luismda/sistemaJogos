@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@200;300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.accordion .accordion-body,
+.accordion .accordion-header button,
+.tabela_home td,
+.tabela_home th,
+.tabela_home th div {
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+table td,
+table th,
+table th div {
+    font-family: 'Arial Narrow', 'Saira Extra Condensed', sans-serif;
+}
+
+@media (max-width: 500px) {
+    .tabela_home tr td:nth-child(5) {
+        text-align: right;
+    }
+}
+
+h2 {
+    font-weight: 600 !important;
+    font-size: 28px !important;
+    border-left: 6px solid #0079bf !important;
+    padding-left: 0.25em !important;
+    margin-bottom: 0.8em !important;
+}
+
+h2.roxo {
+    border-color: #7144b9 !important;
+}
+
+h2.verde {
+    border-color: #00a884 !important;
+}
+
+button:not(.navbar-toggler) {
+    background-color: #0079bf !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+
+button.roxo {
+    background-color: #7144b9 !important;
+}
+
+button.verde {
+    background-color: #00a884 !important;
+}
+
+.dropdown-menu {
+    border: none !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.235);
+    padding: 0.5em !important;
+}
+
+.dropdown-item {
+    border-radius: 6px !important;
+    padding: 0.5em !important;
+}
+
+.dropdown-item:focus {
+    background-color: #0079bf !important;
+    color: #fff !important;
+}
+
+.dropdown-item.roxo:focus {
+    background-color: #7144b9 !important;
+}
+
+.dropdown-item.verde:focus {
+    background-color: #00a884 !important;
+}
+
+.card {
+    border: none !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.235);
+    padding: 1em;
+}
+
+.accordion {
+    margin: 1em 1.4em 0 1.4em !important;
+}
+
+.accordion .accordion-header {
+    border-left: none !important;
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.accordion .accordion-body {
+    text-align: justify;
+}
+
+.accordion .accordion-body,
+.accordion .accordion-header button {
+    padding: 0.4em;
+}
+
+.accordion .accordion-header button {
+    background-color: #e6e6e6 !important;
+    color: #000 !important;
+}
+
+.accordion .accordion-header button:focus {
+    box-shadow: none;
+}

@@ -1,0 +1,20 @@
+.header button:focus {
+    border: none;
+}
+
+.btn_disable {
+    background-color: transparent !important;
+    color: #8b8a8a !important;
+}
+
+.grid_group_form_1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0.5em;
+}
+
+.grid_group_form_2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0.5em;
+}

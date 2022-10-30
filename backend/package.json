@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Luís <luismigueldutraalves@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cpf-cnpj-validator": "^1.0.3",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

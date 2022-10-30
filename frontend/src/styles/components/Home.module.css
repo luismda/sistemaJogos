@@ -1,0 +1,55 @@
+.select_concurso {
+    margin-top: 1em !important;
+}
+
+.link_voltar {
+    width: fit-content;
+    color: #0079bf;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.link_voltar.roxo {
+    color: #7144b9;
+}
+
+.link_voltar.verde {
+    color: #00a884;
+}
+
+.link_voltar svg {
+    margin-right: 0.2em;
+    font-size: 14px;
+}
+
+.link_voltar:hover {
+    color: #0079bf;
+}
+
+.link_voltar.roxo:hover {
+    color: #9772d1;
+}
+
+.link_voltar.verde:hover {
+    color: #0b7c64;
+}
+
+.concurso_info div,
+.concurso_info div span,
+.concurso_info div a {
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.concurso_info div span {
+    letter-spacing: 1.2px;
+}
+
+.concurso_info {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

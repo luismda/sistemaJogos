@@ -1,0 +1,132 @@
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0 1em 0;
+}
+
+.tabela thead tr {
+    border-top: 1px solid #d9dce0;
+}
+
+.tabela tr {
+    width: 100%;
+    border-radius: 4px;
+    border-bottom: 1px solid #d9dce0;
+}
+
+.tabela tbody tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+.tabela thead th,
+.tabela tfoot th {
+    font-weight: bold;
+}
+
+.tabela thead th {
+    color: #0079bf;
+    text-transform: uppercase;
+}
+
+.tabela.roxo thead th {
+    color: #7144b9;
+}
+
+.tabela.verde thead th {
+    color: #00a884;
+}
+
+.tabela th, .tabela td {
+    padding: 9px 3px;
+}
+
+.tabela .label_check input {
+    display: none;
+}
+
+.tabela .label_check span {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    background-color: #f3f3f3;
+    border: 1px solid #DDD;
+    transition: 0.2s;
+}
+
+span::after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 5.5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.tabela .label_check input:checked + span {
+    background-color: #0079bf;
+    border: none;
+}
+
+.tabela.roxo .label_check input:checked + span {
+    background-color: #7144b9;
+}
+
+.tabela.verde .label_check input:checked + span {
+    background-color: #00a884;
+}
+
+.tabela .label_check input:checked ~ span::after {
+    display: block;
+}
+
+.btn_dropdown {
+    width: 32px;
+    height: 32px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border: none !important;
+}
+
+.badge_click {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.badge_click:hover {
+    transform: translateY(-3px);
+}
+
+.input_cotas {
+    max-width: 65px;
+}
+
+.input_creditos {
+    max-width: 90px;
+}
+
+.input_cotas,
+.input_creditos {
+    margin-bottom: 0 !important;
+}
+
+.table_fixed_header {
+    overflow-y: auto;
+    height: auto;
+}
+
+.table_fixed_header thead th {
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(#fff, #ffffff93, #fff);
+    z-index: 1;
+}

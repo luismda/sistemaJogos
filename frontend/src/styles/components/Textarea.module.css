@@ -1,0 +1,18 @@
+.textarea {
+    font-size: 15px !important;
+}
+
+.textarea:focus {
+    border-color: #0079bf !important;
+    box-shadow: 0 0 3px #1b97df !important;
+}
+
+.textarea.roxo:focus {
+    border-color: #7144b9 !important;
+    box-shadow: 0 0 3px #9772d1 !important;
+}
+
+.textarea.verde:focus {
+    border-color: #00a884 !important;
+    box-shadow: 0 0 3px #2ec0a0 !important;
+}

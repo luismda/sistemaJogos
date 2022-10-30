@@ -1,0 +1,25 @@
+.mensagem {
+    padding: 1em;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    animation: fade_in 300ms linear forwards;
+    opacity: 0;
+}
+
+.mensagem.success {
+    background-color: #70ffac;
+    color: #2fa35f;
+}
+
+.mensagem.error {
+    background-color: #ffb3b3;
+    color: #d43a3a;
+}
+
+@keyframes fade_in {
+    100% {
+        opacity: 1;
+    }
+}
