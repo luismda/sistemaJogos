@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const api = axios.create({ baseURL: 'https://jogos.adilsonfaria.com.br/api' })
+const api = axios.create({ baseURL: '' })
 
 api.defaults.headers.post['Access-Control-Allow-Origin'] = '*'
 
