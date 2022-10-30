@@ -11,6 +11,5 @@ No frontend foi utilizado o ReactJS em conjunto com o Bootstrap, além do Axios 
 
 Já no backend foi utilizado o NodeJS com Express, em conjunto com JWT para autenticação e Sequelize com MySql no banco de dados.
 
-<br>
 
 #NeverStopLearning 🚀
